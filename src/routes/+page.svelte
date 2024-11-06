@@ -56,6 +56,7 @@
     <main>
       <section id="about">
         <h2 class="section-title">About</h2>
+				<div class="job-container">
         <div>Hi I'm Nate, I'm a Software Engineer based out of Bend, OR.</div>
         <p>
           I found myself coding when I was a sophomore in high school. As a
@@ -80,6 +81,7 @@
 					I run, but don't always enjoy the training. Other than that I am catching up 
 					on shows/movies that I should've watched earlier in life, or playing video games.
         </p>
+				</div>
       </section>
 
       <section id="experience">
@@ -179,14 +181,10 @@
     aspect-ratio: 1;
   }
   .section-title {
-    display: none;
-    @media (max-width: 600px) {
       display: block;
       margin-bottom: 1rem;
       border-bottom: 1px solid white;
-    }
   }
-
   .container {
     margin-left: auto;
     margin-right: auto;
@@ -263,7 +261,7 @@
     width: 0px;
     position: relative;
     display: block;
-    background-color: black;
+    background-color: white;
   }
   .section-link:hover::after {
     width: 100%;
@@ -272,7 +270,7 @@
   .job-container {
     padding: 1rem;
     border-radius: 0.25rem;
-    transition: background-color 0.2s ease-in;
+    transition: background-color 0.1s ease-in;
   }
   .job-container:hover {
     outline: 1px solid #161e30;
