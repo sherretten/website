@@ -4,7 +4,6 @@
       <div class="base-content">
         <h1 class="name">Nate Sherrett</h1>
         <h2>Software Engineer</h2>
-        <p>I enjoy writing code and solving problems</p>
         <nav>
           <a class="section-link" href="#about">About</a>
           <a class="section-link" href="#experience">Experience</a>
@@ -57,39 +56,30 @@
       <section id="about">
         <h2 class="section-title">About</h2>
 				<div class="job-container">
-        <div>Hi I'm Nate, I'm a Software Engineer based out of Bend, OR.</div>
+        <div>Hi I'm Nate, I'm a Software Engineer specialized in frontend development based out of Bend, OR.</div>
+				
+				<p>
+					I thrive in fast-paced environments and love solving customer problems.
+					As a developer, I strive for code cleanliness and believe that the best way to learn and teach is in a review-based workflow.
+				</p>
+					
+				<p>I have experience leading a team, establishing new team rules and values, and helping team members identify and pursue growth opportunities. As the team lead I introducing weekly bug bashes, handled deploys, and wrote release documentation.</p>
+				<p>	I am passionate about continuous learning and experimenting. Recently, I've been working on a Jira clone to improve my fullstack abilities.</p>
+      
         <p>
-          I found myself coding when I was a sophomore in high school. As a
-          cyclist binging too many British cycling YouTubers I found myself
-          frequently Googling "convert lbs to kg" and "miles to km" creating an
-          Android widget to do these <i>complex</i>
-          calculations. Eventually, I got it working on my phone and never published
-          it, but I was proud!
-        </p>
-        <p>
-          After college I found my first gig as a frontend developer. From day
-          one I was amazed at how big of an application it was. My Largest
-          projects in college were about 3000 lines with 3 other students, so I
-          struggled to wrap my head around a project written by 2 people that
-          could be ~300k lines. Each week was a water hose, I was drowning.
-          Every time I felt like I had it all together it was time to take
-          another step forward to realize I had only just begun. Welcome to
-          being a software engineer, I love it.
-        </p>
-        <p>
-          I am an avid road cyclist questioning if I should get into mountain biking.
-					I run, but don't always enjoy the training. Other than that I am catching up 
-					on shows/movies that I should've watched earlier in life, or playing video games.
+					In my free time I love to ride road bikes, currently I ride a Canyon Ultimate.
+					Since I just moved to Bend I have been thinking about getting into mounting biking!
+					I've recently been a huge fan of the latest WoW expansion.
         </p>
 				</div>
       </section>
 
       <section id="experience">
         <h2 class="section-title">Experience</h2>
-				<a href="https://nrfcloud.com" target="_blank" rel="noreferrer noopener">
         <div class="job-container">
-            <div class="title-row">
-              <h1>Nordic Semiconductor</h1>
+					<a href="https://nrfcloud.com" target="_blank" rel="noreferrer noopener">
+					<div class="title-row">
+						<h1>Nordic Semiconductor</h1>
               <div class="date">
                 2021 — 2024
                 <svg viewBox="0 0 16 16" width="1.2em" height="1.2em">
@@ -101,13 +91,15 @@
 								</svg>
               </div>
             </div>
+					</a>
             <div class="title">Senior Frontend Engineer</div>
             <div class="description">
               I started my career working at Nordic Semiconductor on the IoT
               platform nRF Cloud. When I started the team was about 10 people and grew to
-							nearly 30 developers across the world. I built and maintained components used
-							throughout the app. Collaborated with firmware, backend, and project managers
-							to create user experiences for IoT device fleet managers. 
+							nearly 30 developers across the world. Collaborated with firmware, backend, and project managers
+							to create user experiences for IoT device fleet managers. I designed and developed the workflows including the
+							Device Identity and Provisioning Service, Location Service, Device Alerts and Logs, and maintained components used
+							throughout the app. 
             </div>
             <div class="stacks">
               <div class="stack react">React</div>
@@ -116,16 +108,15 @@
               <div class="stack graphql">Graphql</div>
             </div>
 					</div>
-				</a>
       </section>
       <section id="projects">
         <h2 class="section-title">Projects</h2>
-				<a href="https://www.codewithfriends.com" target="_blank" rel="noreferrer noopener">
-          <div class="job-container">
-						<div class="title-row">
-							<h1>Code With Friends</h1>
-							<div class="date">
-								2024
+				<div class="job-container">
+					<a href="https://www.codewithfriends.com" target="_blank" rel="noreferrer noopener">
+					<div class="title-row">
+						<h1>Code With Friends</h1>
+						<div class="date">
+							2024
 								<svg viewBox="0 0 16 16" width="1.2em" height="1.2em">
 									<path
                     fill="currentColor"
@@ -134,6 +125,7 @@
 								</svg>
 							</div>
 						</div>
+					</a>
             <div class="description">
               In collaboration with a friend, we initiated a side project
               focused on mutual skill development. The primary objective is to
@@ -146,7 +138,6 @@
               <div class="stack javascript">Javascript</div>
             </div>
           </div>
-					</a>
         <div class="projects-container">
           <div class="job-container">
             <div class="title-row">
@@ -157,8 +148,7 @@
             </div>
             <div class="description">
               This project is something silly that I thought up to learn more
-              about
-              <strong>Next js</strong> and <strong>Vercel</strong>. I mostly set
+              about <strong>Next js</strong> and <strong>Vercel</strong>. I mostly set
               out with the plan to copy Jira but coming up with a better way to
               automate <i>standup's</i>.
               <div class="stacks">
@@ -274,7 +264,7 @@
   }
   .job-container:hover {
     outline: 1px solid #161e30;
-    background-color: #161e30;
+    background-color: #161e305e;
   }
 
   .title-row {
