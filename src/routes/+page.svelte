@@ -63,7 +63,7 @@
 					As a developer, I strive for code cleanliness and believe that the best way to learn and teach is in a review-based workflow.
 				</p>
 					
-				<p>I have experience leading a team, establishing new team rules and values, and helping team members identify and pursue growth opportunities. As the team lead I introducing weekly bug bashes, handled deploys, and wrote release documentation.</p>
+				<p>I have experience leading a team, establishing new team rules and values, and helping team members identify and pursue growth opportunities. As the team lead I introduced weekly bug bashes, handled deploys, and wrote release documentation.</p>
 				<p>	I am passionate about continuous learning and experimenting. Recently, I've been working on a Jira clone to improve my fullstack abilities.</p>
       
         <p>
