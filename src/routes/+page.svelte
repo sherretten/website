@@ -94,12 +94,8 @@
 					</a>
             <div class="title">Senior Frontend Engineer</div>
             <div class="description">
-              I started my career working at Nordic Semiconductor on the IoT
-              platform nRF Cloud. When I started the team was about 10 people and grew to
-							nearly 30 developers across the world. Collaborated with firmware, backend, and project managers
-							to create user experiences for IoT device fleet managers. I designed and developed the workflows including the
-							Device Identity and Provisioning Service, Location Service, Device Alerts and Logs, and maintained components used
-							throughout the app. 
+							I worked with a small, agile team within Nordic Semiconductor which allowed us to move at the pace of open-source development.
+              I collaborated with firmware engineers, backend developers, and project managers to design and build user experiences for IoT device fleet managers. Specifically, I led the design and development of key workflows, including the Device Identity and Provisioning Service, Location Service, Device Alerts and Logs, and maintained core components used throughout the application.
             </div>
             <div class="stacks">
               <div class="stack react">React</div>
