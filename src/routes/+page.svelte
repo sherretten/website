@@ -67,8 +67,8 @@
 				<p>	I am passionate about continuous learning and experimenting. Recently, I've been working on a Jira clone to improve my fullstack abilities.</p>
       
         <p>
-					In my free time, I love to ride bikes, currently I ride a Canyon Ultimate.
-					Since moving to Bend, I have been considering getting into mounting biking as well!
+					In my free time, I love to ride bikes. Currently I ride a Canyon Ultimate.
+					Since moving to Bend, I have been considering getting a mounting bike as well!
 					I've recently been a huge fan of the latest WoW expansion.
         </p>
 				</div>
