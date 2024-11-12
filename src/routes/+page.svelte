@@ -3,7 +3,7 @@
     <header>
       <div class="base-content">
         <h1 class="name">Nate Sherrett</h1>
-        <h2>Software Engineer</h2>
+        <h2 class="name">Software Engineer</h2>
         <nav>
           <a class="section-link" href="#about">About</a>
           <a class="section-link" href="#experience">Experience</a>
@@ -162,6 +162,9 @@
 </div>
 
 <style>
+	.name {
+		margin-bottom: 1rem;
+	}
   .icon {
     height: 44px;
     aspect-ratio: 1;
