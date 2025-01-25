@@ -29,7 +29,7 @@
         </a>
 
         <a
-          href="https://www.linkedin.com/in/nathaniel-sherrett-7a4aa0166/"
+          href="https://www.linkedin.com/in/natesherrett/"
           target="_blank"
 					rel="noreferrer noopener">
           <svg
