@@ -106,6 +106,28 @@
       </section>
       <section id="projects">
         <h2 class="section-title">Projects</h2>
+				 <div class="projects-container">
+          <div class="job-container">
+						<a href="https://jira-clone-sandy.vercel.app/" target="_blank" rel="noreferrer noopener">
+            <div class="title-row">
+              <h1>BendR Scheduler</h1>
+              <div class="date">
+                2024
+              </div>
+            </div>
+            <div class="description">
+              This is a project using <strong>NextJs</strong>, <strong>Typescript</strong>, <strong>React</strong>, <strong>PostgreSQL</strong>.
+							The goal of this app is to help bike shops schedule their Mechanics and work orders to allow easy tracking and customer estimates.
+              <div class="stacks">
+                <div class="stack next">Next</div>
+                <div class="stack vercel">Vercel</div>
+                <div class="stack react">React</div>
+                <div class="stack typescript">Typescript</div>
+								<div class="stack postgres">PostgreSQL</div>
+              </div>
+            </div>
+          </div>
+        </div>
 				<div class="job-container">
 					<a href="https://www.codewithfriends.com" target="_blank" rel="noreferrer noopener">
 					<div class="title-row">
@@ -133,28 +155,6 @@
               <div class="stack javascript">Javascript</div>
             </div>
           </div>
-        <div class="projects-container">
-          <div class="job-container">
-            <div class="title-row">
-              <h1>Jira Clone</h1>
-              <div class="date">
-                2024
-              </div>
-            </div>
-            <div class="description">
-              This project is something silly that I thought up to learn more
-              about <strong>Next js</strong> and <strong>Vercel</strong>. I mostly set
-              out with the plan to copy Jira but coming up with a better way to
-              automate <i>standup's</i>.
-              <div class="stacks">
-                <div class="stack next">Next</div>
-                <div class="stack vercel">Vercel</div>
-                <div class="stack react">React</div>
-                <div class="stack python">Python</div>
-              </div>
-            </div>
-          </div>
-        </div>
       </section>
     </main>
   </div>
@@ -303,6 +303,9 @@
   .vercel {
     background-color: black;
   }
+	.postgres {
+		background-color: #336791;
+	}
   .python {
     background-color: #39719c;
     color: #ffce41;
